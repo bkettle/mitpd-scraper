@@ -21,3 +21,17 @@ There are currently two modes for the script---it will either show you the log f
 * `./mitpd-scraper -h` for some very basic help in case you forget.
 
 You could also add the containing folder to your `$PATH` and just use it as `mitpd-scraper`, of course.
+
+## Example Output
+
+When run for a single day, the output will look something like this:
+```
+2020-07-08
+------------------------
+On 2020-03-17 00:00:00 near E53 / 30 WADSWORTH ST & HERMAN GARAGE - LARCENY: Report filed regarding stolen bicycles.
+On 2020-07-08 13:50:00 near M43 / 59 VASSAR ST - FIRE - ACTUAL: Report filed regarding a dumpster fire.
+On 2020-06-21 12:00:00 near NE48 / 700 TECH SQUARE - FRAUD: Report filed regarding fraud.
+On 2020-07-08 02:10:00 near W1 / 305 MEMORIAL DR - TRESPASS: Report filed regarding an individual who was escorted from the property for trespassing. Trespass warning issued.
+```
+
+ This format is fairly easy to change to something more natural, though. It also outputs the URL that it fetches from, though this is easy to disable, and I will maybe add a command line option for that.
