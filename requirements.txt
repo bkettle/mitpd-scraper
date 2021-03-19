@@ -8,7 +8,7 @@ numpy==1.19.0
 pandas==1.0.5
 pdfminer.six==20200104
 pdfplumber==0.5.21
-Pillow==7.2.0
+Pillow==8.1.1
 pycryptodome==3.9.8
 PyMuPDF==1.17.3
 python-dateutil==2.8.1
