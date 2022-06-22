@@ -4,7 +4,7 @@ distro==1.5.0
 isort==4.3.21
 lazy-object-proxy==1.4.3
 mccabe==0.6.1
-numpy==1.19.0
+numpy==1.22.0
 pandas==1.0.5
 pdfminer.six==20200104
 pdfplumber==0.5.21
